@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{12A: Graphs and adjacency matrices}{4}{0}{1}
+\beamer@sectionintoc {2}{12B: Euler circuits}{18}{0}{2}
+\beamer@sectionintoc {3}{12C: Hamiltonian cycles}{32}{0}{3}
+\beamer@sectionintoc {4}{12D: Using matrix powers to count walks in graphs}{38}{0}{4}
+\beamer@sectionintoc {5}{12E: Regular, cycle, comple and bipartite graphs}{44}{0}{5}
+\beamer@sectionintoc {6}{12F: Trees}{57}{0}{6}
+\beamer@sectionintoc {7}{12G: Euler's formula and the Platonic solids}{66}{0}{7}
+\beamer@sectionintoc {8}{12H: When every vertex has even degree}{83}{0}{8}
