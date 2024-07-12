@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{7A: The algebra of sets}{3}{0}{1}
+\beamer@sectionintoc {2}{7B: Switching circuits}{12}{0}{2}
+\beamer@sectionintoc {3}{7C: Boolean algebra}{18}{0}{3}
+\beamer@sectionintoc {4}{7D: Logical connectives and truth tables}{28}{0}{4}
+\beamer@sectionintoc {5}{7E: Valid argument}{43}{0}{5}
+\beamer@sectionintoc {6}{7F: Logic circuits}{51}{0}{6}
+\beamer@sectionintoc {7}{7G: Karnaugh maps}{58}{0}{7}
