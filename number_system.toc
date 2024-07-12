@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{2A: Set notation}{3}{0}{1}
+\beamer@sectionintoc {2}{2B: Sets of numbers}{10}{0}{2}
+\beamer@sectionintoc {3}{2C: Surds}{19}{0}{3}
+\beamer@sectionintoc {4}{2D: Natural numbers}{28}{0}{4}
+\beamer@sectionintoc {5}{2E: Problems involving sets}{36}{0}{5}

@@ -1,0 +1,47 @@
+\documentclass[20pts]{exam}
+
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{tabto}
+\usepackage{relsize}
+
+\renewcommand{\labelenumi}{\alph{enumi})}
+
+\newenvironment{intro}{
+    \parindent0pt
+    \noindent\ignorespacesafterend
+}
+
+\newcommand*\AnswerBox[2]{%
+    \parbox[t][#1]{0.95\textwidth}{%
+    \begin{solution}#2\end{solution}}
+    \vspace*{\stretch{1}}
+}
+
+\newenvironment{AnswerPage}[1]
+    {\begin{minipage}[t][#1]{\textwidth}%
+    \begin{solution}}
+    {\end{solution}\end{minipage}
+    \vspace*{\stretch{1}}}
+
+\title{Algebra and functions} % Change the title here
+%\author{Kin Hei Wong}
+%\date{17/12/2023} % Change the date here
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+    \question[2]
+    Simplify $\mathlarger{\frac{a^6\times a^3}{\sqrt{a^4}} \div a^{1/2}}$. Give your answer in the form $\mathlarger{a^{\frac{p}{q}}.}$\\
+    \question[2]
+    Find the value of $x$ such that:\\
+    \begin{enumerate}
+        \item $\mathlarger{27^x = 3}$
+        \item $\mathlarger{27^x = 81}$
+    \end{enumerate}
+    \question[3]
+    Fully simplify $\mathlarger{\frac{(3ab^3)^2\times 2a^6}{6a^4b}}$.
+\end{questions}
+
+\end{document}
