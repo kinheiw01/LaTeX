@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{11A: Matrix notation}{3}{0}{1}
+\beamer@sectionintoc {2}{11B: Addition, subtraction and multiplication by a real number}{10}{0}{2}
+\beamer@sectionintoc {3}{11C: Multiplication of matrices}{17}{0}{3}
+\beamer@sectionintoc {4}{11D: Identities, inverses and determinants for 2 $\times $ 2 matrices}{22}{0}{4}
+\beamer@sectionintoc {5}{11E: Solution of simultaneous equation}{32}{0}{5}
+\beamer@sectionintoc {6}{11F: Inverse and determinants for $n \times n$ matrices}{38}{0}{6}
+\beamer@sectionintoc {7}{11G: Simultaneous linear equations with more than two variables}{47}{0}{7}
+\beamer@sectionintoc {8}{Extra: Gaussian elimination}{52}{0}{8}
