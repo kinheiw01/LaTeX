@@ -1,0 +1,404 @@
+% Packages
+
+\documentclass{beamer}
+\setcounter{tocdepth}{1}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
+\usepackage{tikz}
+
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule for better rules in tables
+\usepackage{pgfplots}
+\usepackage{tikz}
+\pgfplotsset{width=6cm, compat=newest, every tick label/.append style={scale=0.5}}
+
+% Theme
+\usetheme{Madrid}
+
+% Font
+\usefonttheme{serif}
+\usepackage{newtxtext,newtxmath}
+\usepackage[default]{lato}
+
+% Inner theme
+\useinnertheme{circles}
+
+% Information
+\title{Sequence and series}
+\author{Kin Hei Wong}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Title slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Table of Content
+\begin{frame}
+    \frametitle{Presentation overview}
+    \tableofcontents
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Body slides
+
+\section{6A: Direct Proof}
+\begin{frame}
+    \frametitle{6A}
+    \begin{center}
+        \title{Direct Proof}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}{Conditional statement}
+    Same in english, we use "if" and "then" in our statement, but in symbol:\\
+    \begin{block}{Conditional}
+        Statement: \alert{If} it is raining, \alert{then} the grass is wet.\\
+        Let $P$ (hypothesis) = it is raining, $Q$ (conclusion)= the grass is wet\\
+        $P \implies Q$
+    \end{block}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 1}
+    Prove the following statements:\\
+    \begin{enumerate}
+        \item If $a$ is odd and $b$ is even, then $a+b$ is odd.
+        \item If $a$ is odd and $b$ is odd, then $ab$ is odd.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 2}
+    Let $p,q \in \mathbb{Z}$ such that $p$ is divisible by 5 and $q$ is divisible by 3. Prove that $pq$ is divisible by 15.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 3}
+    Let $x$ and $y$ be positive real numbers. Prove that if $x>y$, then $x^2>y^2$.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 4}
+    Let $x$ and $y$ be any two positive real numbers. Prove that\\
+    \[
+        \frac{x+y}{2} \geq \sqrt{xy}
+    \]
+\end{frame}
+
+\begin{frame}[t]
+    Different cases work too!\\
+    \frametitle{Example 5}
+    Every person on an island is either a knight or a knave. Knights always tell the truth,
+ and knaves always lie. Alice and Bob are residents on the island. Alice says: 'We are
+ both knaves.' What are Alice and Bob?    
+\end{frame}
+
+\begin{frame}{Exercise: 6A}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{6B: Proof by contrapositive}
+\begin{frame} 
+    \frametitle{6B}
+    \begin{center}
+        \title{Proof by contrapositive}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}{The negation of a statement}
+    Negate statement = opposite of the statement\\
+    I am a boy $\implies$ I am \textbf{not} a boy.
+    \begin{block}{Example 6}
+        \begin{enumerate}
+            \item 2>1
+            \item 5 is divisible by 3
+            \item The sum of any two odd numbers is even
+            \item There are two primes whose product is 12
+        \end{enumerate}        
+    \end{block}
+\end{frame}
+
+\begin{frame}{De Morgan's laws}
+    not ($P$ and $Q$) is the same as (not $P$) or (not $Q$)\\
+    not ($P$ or $Q$) is the same as (not $P$) and (not $Q$)
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 7}
+    Write down each statement and its negation. Which of the statement and its negation is
+    true and which is false?\\
+    \begin{enumerate}
+        \item 6 is divisible by 2 and 3
+        \item 10 is divisible by 2 or 7
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 8}
+    Every person on an island is either a knight or a knave. Knights always tell the truth, and
+ knaves always lie. Alice and Bob are residents on the island. Alice says: 'I am a knave or
+ Bob is a knight.' What are Alice and Bob?
+\end{frame}
+
+\begin{frame}{Proof by contrapositive}
+    We use negation in contrapositive proof:\\
+    Statement: If it is the end of term, then the students are happy.
+    Contrapositive: If the students are \textbf{not} happy, then it is \textbf{not} the end of term.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 9}
+    Let $n \in \mathbb{Z}$ and consider this statement: If $n^2$ is even, then $n$ is even.\\
+    \begin{enumerate}
+        \item Write down the contrapositive
+        \item Prove the contrapositive
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 10}
+    Let $n \in \mathbb{Z}$ and consider this statement: If $n^2 + 4n + 1$ is even, then $n$ is odd.\\
+    \begin{enumerate}
+        \item Write the Contrapositive
+        \item Prove the contrapositive
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 11}
+    Let $x$ and $y$ be positive real numbers and consider this statement: If $x < y$, then $\sqrt{x} <\sqrt{y}$.\\
+    \begin{enumerate}
+        \item Write down the contrapositive
+        \item Prove the contrapositive
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Exercise: 6B}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{6C: Proof by contradiction}
+\begin{frame}
+    \frametitle{6C}
+    \begin{center}
+        \title{Proof by contradiction}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 12}
+    An angle is called reflex if it exceeds 180 . Prove that no quadrilateral has more than one
+    reflex angle.
+
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 13}
+    A Pythagorean triple consists of three natural numbers (a,b,c) satisfying:\\
+    $a^2 + b^2 = c^2$\\
+    Show that if (a,b,c) is a Pythagorean triple, then a, b and c cannot all be odd numbers.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Theorem}
+    $\sqrt{2}$ is irrational
+\end{frame}
+\begin{frame}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 14}
+    Suppose $x$ satisfies $5^x = 2$. Show that $x$ is irrational.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Theorem}
+    There are infinitely many prime numbers.
+\end{frame}
+
+\begin{frame}{Exercise: 6C}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{6D: Equivalent statements}
+\begin{frame}
+    \frametitle{6D}
+    \begin{center}
+        \title{Proof by contradiction}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{The converse of a statement}
+    Statement: If the angle between $a$ and $b$ is $90^o$, then $a^2 + b^2 = c^2$\\
+    Converse: If $a^2 + b^2 = c^2$, then the angle between $a$ and $b$ is $90^o$
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 15}
+    Let $x$ and $y$ be positive real numbers. Consider the statement: If $x < y$, then $x_2 < y_2$.\\
+    \begin{enumerate}
+        \item Write down the converse of this statement.
+        \item Prove the converse
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 16}
+    Let $m$ and $n$ be integers. Consider the statement: If $m$ and $n$ are even, then $m + n$ is even.\\
+    \begin{enumerate}
+        \item Write down the converse of this statement.
+        \item Prove the converse
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Equivalent statements}
+    P: Heart is beating\quad Q: You are alive\\
+    Since $P \implies Q$ and $Q \implies P$\\
+    We can say that $P \iff Q$
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 17}
+    Let $n \in \mathbb{Z}$. Prove that n is even if and only if $n + 1 $is odd.\\
+\end{frame}
+
+\begin{frame}{Exercise: 6D}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{6E:  Disproving statements}
+\begin{frame}
+    \frametitle{6E}
+    \begin{center}
+        \title{Disproving statements}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{For all ($\forall$) and there exists ($\exists$)}
+    Statement: For all natural numbers $n$, we have $2n \geq n + 1$.\\
+    Statement: There exists an integer $m$ such that $m^2 = 25$.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 18}
+    Rewrite each statement using either 'for all' or 'there exists':\\
+    \begin{enumerate}
+        \item Some real numbers are irrational.
+        \item Every integer that is divisible by 4 is also divisible by 2.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 19}
+    Write down the negation of each of the following statements:\\
+    \begin{enumerate}
+        \item Forall natural numbers $n$, we have $2n \geq n+1$.
+        \item There exists an integer $m$ such that $m^2 = 4$ and $m^3 = 8$.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Counterexamples: Example 20}
+    Let $f(n) = n^2-n+11$. Disprove this statement: For all n N, the number $f(n)$ is prime.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 21}
+    Find a counterexample to disprove this statement: For all $x,y \in \mathbb{R}$, if $x > y$, then $x^2 > y^2$.
+    
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 22}
+    Disprove this statement: There exists $n \in \mathbb{N}$ such that $n^2 + 13n + 42$ is a prime number.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 23}
+    Show that this statement is false: There exists some real number $x$ such that $x^2 = 1$.
+\end{frame}
+
+\begin{frame}{Exercise: 6E}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{6F: Proof by induction}
+\begin{frame}
+    \frametitle{6F}
+    \begin{center}
+        \title{Proof by induction}
+        \maketitle
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Induction}
+    Just follow the steps, you should be able to work out most of the induction:\\
+    \begin{block}{Induction steps}
+        Let $P(n)$ be some proposition about the natural number n\\
+        \begin{enumerate}
+            \item Show that P(1) [or the minimum value for other cases]
+            \item Assume that P(n) is true
+            \item Prove that P(n+1) is true
+        \end{enumerate}
+    \end{block}  
+
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 24}
+    Prove that \\
+    $1 + 3 + 5 + \dots + (2n-1) = n^2$\\
+    for all $n \in \mathbb{N}$
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 25}
+    Prove by induction that $7^n - 4$ is divisible by $3$ for all $n \in N$.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 26}
+    Prove that $3^n > 3 \times 2^n$ for every natural number $n \geq 3$.
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 27}
+    Given $t_1 = 11$ and $t_{n+1}$ = $10t_n - 9$, prove that $t_n = 10_n +1$.
+    
+
+\end{frame}
+
+\begin{frame}[t]
+    \frametitle{Example 28}
+    Let $a_n$ be the minimum number of moves needed to solve the Tower of Hanoi with n discs.
+    \begin{enumerate}
+        \item Find a formula for $a_{n+1}$ in terms of $a_n$.
+        \item Evaluate an for $n = 1,2,3,4,5$. Guess a formula for $a_n$ in terms of n.
+        \item Confirm your formula for $a_n$ using mathematical induction.
+        \item  If $n =20$,how many days are needed to transfer all the discs to another peg, assuming
+        that one disc can be moved per second?
+    \end{enumerate}
+\end{frame}
+\begin{frame}
+\end{frame}
+\begin{frame}
+\end{frame}
+
+\begin{frame}{Exercise: 6F}
+\end{frame}
+
+
+\end{document}

@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{6A: Direct Proof}{3}{0}{1}
+\beamer@sectionintoc {2}{6B: Proof by contrapositive}{12}{0}{2}
+\beamer@sectionintoc {3}{6C: Proof by contradiction}{22}{0}{3}
+\beamer@sectionintoc {4}{6D: Equivalent statements}{30}{0}{4}
+\beamer@sectionintoc {5}{6E: Disproving statements}{37}{0}{5}
+\beamer@sectionintoc {6}{6F: Proof by induction}{46}{0}{6}
