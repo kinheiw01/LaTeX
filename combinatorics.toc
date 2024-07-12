@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{9A: Basic counting methods}{3}{0}{1}
+\beamer@sectionintoc {2}{9B: Factorial notation and permutations}{9}{0}{2}
+\beamer@sectionintoc {3}{9C: Permutations with restriction}{16}{0}{3}
+\beamer@sectionintoc {4}{9D: Permutations of like objects}{20}{0}{4}
+\beamer@sectionintoc {5}{9E: Combinations}{24}{0}{5}
+\beamer@sectionintoc {6}{9F: Combinations with restriction}{31}{0}{6}
+\beamer@sectionintoc {7}{9G: Pascal's triangle}{36}{0}{7}
+\beamer@sectionintoc {8}{9H: The pigeonhole principle}{41}{0}{8}
+\beamer@sectionintoc {9}{9I: The inclusion - exclusion principle}{47}{0}{9}
