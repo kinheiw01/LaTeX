@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{1A - Linear equations}{3}{0}{1}
+\beamer@sectionintoc {2}{1B - Constructing linear equations}{9}{0}{2}
+\beamer@sectionintoc {3}{1C - Simultaneous equations}{14}{0}{3}
+\beamer@sectionintoc {4}{1D - Constructing simultaneous equations}{19}{0}{4}
+\beamer@sectionintoc {5}{1E - Solving linear inequalities}{23}{0}{5}
+\beamer@sectionintoc {6}{1F - Using and tranposing formula}{28}{0}{6}
